@@ -46,7 +46,16 @@ I did not used the logger in this project which I will use if project will grow!
 ## Use full information:
 >
 #### 
-[UML diagram](https://github.com/smmakvana/javatest/blob/master/UMLdiagram.jpg)
+[Service Layer UML](https://github.com/smmakvana/javatest/blob/master/UMLDiagram1.png)
+>
+####
+[Strategy Layer UML](https://github.com/smmakvana/javatest/blob/master/UMLDiagram2.png)
+>
+####
+[Strategy Context Factory UML](https://github.com/smmakvana/javatest/blob/master/UMLDiagram3.png)
+>
+####
+[Complete UML diagram](https://github.com/smmakvana/javatest/blob/master/UMLdiagram.jpg)
 >
 #### 
 [Test Coverage Quick Info] (https://github.com/smmakvana/javatest/blob/master/testcoverage.png)
