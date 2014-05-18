@@ -25,7 +25,7 @@ public class CommandProcessorImpl implements CommandProcessor {
     public static final String ERR_MSG_CONTENT_IS_EMPTY = "content is empty";
     public static final String ERR_MSG_SUBJECT_MUST_HAVE_TWO_ARGUMENTS = "subject must have two arguments";
 
-    private final Map<String, AtomicInteger> messagesMap;
+    private final ConcurrentHashMap<String, AtomicInteger> messagesMap;
 
     public CommandProcessorImpl() {
         messagesMap = new ConcurrentHashMap<String, AtomicInteger>(10);
