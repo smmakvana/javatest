@@ -39,9 +39,10 @@ public class CommandProcessorImpl implements CommandProcessor {
         try {
             Context context = ContextFactory.getContext(newMessage.getCommand());
             context.executeStrategy(newMessage);
-            collectSenderInfo(from);
         } catch (Exception e) {
            System.err.println("could not execute email command :" + e.getMessage());//
+        }finally {
+            collectSenderInfo(from);
         }
 
     }
