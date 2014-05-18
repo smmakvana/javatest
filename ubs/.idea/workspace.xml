@@ -4,30 +4,6 @@
     <list default="true" id="2f4090bc-72c7-4bcc-a8d1-a3c04e964676" name="Default" comment="" />
     <ignored path="ubs.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.java" changelist="2f4090bc-72c7-4bcc-a8d1-a3c04e964676" time="1400253395386" ignored="false" />
-    <file path="/a.dummy" changelist="2f4090bc-72c7-4bcc-a8d1-a3c04e964676" time="1400253544999" ignored="false" />
-    <file path="/EmailCommandProcessorImpl.java" changelist="2f4090bc-72c7-4bcc-a8d1-a3c04e964676" time="1400371691557" ignored="false" />
-    <file path="/pom.xml" changelist="2f4090bc-72c7-4bcc-a8d1-a3c04e964676" time="1400254920638" ignored="false" />
-    <file path="/Command.java" changelist="2f4090bc-72c7-4bcc-a8d1-a3c04e964676" time="1400366363549" ignored="false" />
-    <file path="/WriteStrategy.java" changelist="2f4090bc-72c7-4bcc-a8d1-a3c04e964676" time="1400376101504" ignored="false" />
-    <file path="/DeleteStrategy.java" changelist="2f4090bc-72c7-4bcc-a8d1-a3c04e964676" time="1400366758194" ignored="false" />
-    <file path="/AppendStrategy.java" changelist="2f4090bc-72c7-4bcc-a8d1-a3c04e964676" time="1400366899146" ignored="false" />
-    <file path="/Context.java" changelist="2f4090bc-72c7-4bcc-a8d1-a3c04e964676" time="1400367179441" ignored="false" />
-    <file path="/CommandDelegation.java" changelist="2f4090bc-72c7-4bcc-a8d1-a3c04e964676" time="1400368813018" ignored="false" />
-    <file path="/ContextFactory.java" changelist="2f4090bc-72c7-4bcc-a8d1-a3c04e964676" time="1400376352114" ignored="false" />
-    <file path="/UnknownStrategy.java" changelist="2f4090bc-72c7-4bcc-a8d1-a3c04e964676" time="1400367898589" ignored="false" />
-    <file path="/EmailCommand.java" changelist="2f4090bc-72c7-4bcc-a8d1-a3c04e964676" time="1400369876107" ignored="false" />
-    <file path="/EmailCommandProcessor.java" changelist="2f4090bc-72c7-4bcc-a8d1-a3c04e964676" time="1400371300379" ignored="false" />
-    <file path="/CommandProcessorImpl.java" changelist="2f4090bc-72c7-4bcc-a8d1-a3c04e964676" time="1400377030990" ignored="false" />
-    <file path="/SubjectTest.java" changelist="2f4090bc-72c7-4bcc-a8d1-a3c04e964676" time="1400372271115" ignored="false" />
-    <file path="/AllTest.java" changelist="2f4090bc-72c7-4bcc-a8d1-a3c04e964676" time="1400382269359" ignored="false" />
-    <file path="/InvalidInputDataTest.java" changelist="2f4090bc-72c7-4bcc-a8d1-a3c04e964676" time="1400373884641" ignored="false" />
-    <file path="/ValidInputData.java" changelist="2f4090bc-72c7-4bcc-a8d1-a3c04e964676" time="1400381442457" ignored="false" />
-    <file path="/Message.java" changelist="2f4090bc-72c7-4bcc-a8d1-a3c04e964676" time="1400375554691" ignored="false" />
-    <file path="/Strategies.java" changelist="2f4090bc-72c7-4bcc-a8d1-a3c04e964676" time="1400376050818" ignored="false" />
-    <file path="/AdvanceTest.java" changelist="2f4090bc-72c7-4bcc-a8d1-a3c04e964676" time="1400384684605" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="2f4090bc-72c7-4bcc-a8d1-a3c04e964676" time="1400385799238" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/misc.xml" changelist="2f4090bc-72c7-4bcc-a8d1-a3c04e964676" time="1400385738374" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +18,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -79,23 +54,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/strategy/WriteStrategy.java" line="25" class="co.uk.sanjay.ubstest.strategy.WriteStrategy" package="co.uk.sanjay.ubstest.strategy">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -105,50 +64,95 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ValidInputData.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ValidInputData.java">
+      <file leaf-file-name="StringBuilder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/lang/StringBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="19" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="71" column="19" selection-start="2424" selection-end="2424" vertical-scroll-proportion="0.0" vertical-offset="657" max-vertical-offset="7140">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdvanceTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/AdvanceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="129" column="20" selection-start="3866" selection-end="3876" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommandProcessorImpl.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CommandProcessorImpl.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/CommandProcessorImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="11" selection-start="2946" selection-end="2946" vertical-scroll-proportion="0.0">
+            <state line="107" column="0" selection-start="3948" selection-end="3948" vertical-scroll-proportion="0.9290188" vertical-offset="1238" max-vertical-offset="1785">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestSuit.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestSuit.java">
+      <file leaf-file-name="Map.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/util/Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="39" selection-start="362" selection-end="362" vertical-scroll-proportion="0.41666666">
+            <state line="347" column="25" selection-start="16212" selection-end="16212" vertical-scroll-proportion="0.0" vertical-offset="5349" max-vertical-offset="7837">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InvalidInputDataTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/InvalidInputDataTest.java">
+      <file leaf-file-name="AppendStrategy.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/strategy/AppendStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="32" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
+            <state line="14" column="16" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="79" max-vertical-offset="561">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnknownStrategy.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/strategy/UnknownStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="82" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContextFactory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/strategy/ContextFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="76" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="731">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeleteStrategy.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/strategy/DeleteStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="16" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WriteStrategy.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/strategy/WriteStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="59" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Strategies.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/strategy/Strategies.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="81" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Strategy.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/strategy/Strategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="16" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -171,21 +175,32 @@
         <option value="$PROJECT_DIR$/src/test/java/SenderTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SubjectTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/strategy/StrategyCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/strategy/Strategies.java" />
         <option value="$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/strategy/ContextFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/message/Message.java" />
         <option value="$PROJECT_DIR$/src/test/java/InvalidInputDataTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/strategy/WriteStrategy.java" />
         <option value="$PROJECT_DIR$/oneThreadTest.txt" />
         <option value="$PROJECT_DIR$/src/test/java/ValidInputData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/CommandProcessorImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/AdvanceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/AllTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestSuit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/CommandProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/strategy/Context.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/message/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/strategy/Strategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/strategy/Strategies.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/strategy/DeleteStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/strategy/AppendStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/strategy/WriteStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/strategy/UnknownStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/CommandProcessorImpl.java" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:\winfiles\CSI\apache-maven-3.1.1" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -221,8 +236,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1448" />
+    <option name="height" value="880" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -250,6 +267,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -279,6 +297,62 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ubs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ubs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ubstest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ubs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ubs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ubstest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="message" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -468,27 +542,26 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="OverrideImplement.combined" value="true" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="settings.github" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="FullScreen" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="options.lastSelected" value="MavenSettings" />
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="LayoutCode.rearrangeEntries" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -616,7 +689,7 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
@@ -642,6 +715,26 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -726,6 +819,25 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.SubjectTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.SenderTest" />
@@ -774,88 +886,49 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <frame x="-4" y="-4" width="1448" height="880" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28917378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="simpleUML" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.7037037" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2853261" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12578125" sideWeight="0.7138927" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1137339" sideWeight="0.7138927" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3125" sideWeight="0.7138927" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2861073" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2746781" sideWeight="0.7138927" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2853261" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="simpleUML" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.7037037" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
     <option name="myTodoPanelSettings">
-      <value>
-        <are-packages-shown value="false" />
-        <are-modules-shown value="false" />
-        <flatten-packages value="false" />
-        <is-autoscroll-to-source value="false" />
-      </value>
+      <TodoPanelSettings />
     </option>
-    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
-    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
-    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
-    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
-    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
-    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
-    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
-    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
-    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
-    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
-    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
-    <option name="LIMIT_HISTORY" value="true" />
-    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
-    <option name="UPDATE_FILTER_SCOPE_NAME" />
-    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
-    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
-    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
-    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
-    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
-    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
-    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
-    <option name="ACTIVE_VCS_NAME" />
-    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
-    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
-    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
-    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
-    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -865,30 +938,202 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/strategy/Strategies.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ValidInputData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="27" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
+        <state line="21" column="19" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1717">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/strategy/ContextFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/AdvanceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="76" selection-start="398" selection-end="398" vertical-scroll-proportion="0.4356659">
+        <state line="129" column="20" selection-start="3866" selection-end="3876" vertical-scroll-proportion="0.0" vertical-offset="2193" max-vertical-offset="2907">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/CommandProcessorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="49" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1717">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestSuit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="340">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/message/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="0" selection-start="1287" selection-end="1287" vertical-scroll-proportion="0.0">
+        <state line="55" column="0" selection-start="1287" selection-end="1287" vertical-scroll-proportion="0.0" vertical-offset="935" max-vertical-offset="1071">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/CommandProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="117" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/InvalidInputDataTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="32" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1853">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ValidInputData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="19" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1717">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AdvanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="20" selection-start="3866" selection-end="3876" vertical-scroll-proportion="0.0" vertical-offset="2193" max-vertical-offset="2907">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/CommandProcessorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="11" selection-start="2946" selection-end="2946" vertical-scroll-proportion="0.0" vertical-offset="1428" max-vertical-offset="1853">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestSuit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/InvalidInputDataTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="32" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1853">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ValidInputData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="19" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/InvalidInputDataTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="32" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/lang/IllegalArgumentException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="6" selection-start="442" selection-end="442" vertical-scroll-proportion="0.31982633" vertical-offset="0" max-vertical-offset="1326">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/CommandProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="117" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.m2/settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="447">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestSuit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="13" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="4046">
+          <folding>
+            <element signature="e#0#6412#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AdvanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="20" selection-start="3866" selection-end="3876" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/strategy/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="65" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/strategy/ContextFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="76" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/strategy/Strategies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="81" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/message/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/strategy/AppendStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="99" selection-start="499" selection-end="586" vertical-scroll-proportion="0.42060086">
+        <state line="14" column="16" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="79" max-vertical-offset="561">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/strategy/DeleteStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="16" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/strategy/Strategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="16" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -897,64 +1142,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/strategy/WriteStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="609" selection-end="609" vertical-scroll-proportion="0.4527897">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/src.zip!/java/util/concurrent/ExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="196" column="12" selection-start="6803" selection-end="6803" vertical-scroll-proportion="0.0">
+        <state line="14" column="59" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/src.zip!/java/util/concurrent/Executor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/strategy/UnknownStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="9" selection-start="3719" selection-end="3719" vertical-scroll-proportion="0.0">
+        <state line="12" column="82" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="347" column="25" selection-start="16212" selection-end="16212" vertical-scroll-proportion="0.0" vertical-offset="5349" max-vertical-offset="7837">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="19" selection-start="2424" selection-end="2424" vertical-scroll-proportion="0.0" vertical-offset="657" max-vertical-offset="7140">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/co/uk/sanjay/ubstest/CommandProcessorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="11" selection-start="2946" selection-end="2946" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/InvalidInputDataTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="32" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ValidInputData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="19" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AdvanceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="20" selection-start="3866" selection-end="3876" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestSuit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="39" selection-start="362" selection-end="362" vertical-scroll-proportion="0.41666666">
+        <state line="107" column="0" selection-start="3948" selection-end="3948" vertical-scroll-proportion="0.9290188" vertical-offset="1238" max-vertical-offset="1785">
           <folding />
         </state>
       </provider>
@@ -1016,7 +1234,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

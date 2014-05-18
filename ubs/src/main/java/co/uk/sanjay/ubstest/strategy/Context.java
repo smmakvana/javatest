@@ -3,20 +3,16 @@ package co.uk.sanjay.ubstest.strategy;
 import co.uk.sanjay.ubstest.message.Message;
 
 /**
- * Created with IntelliJ IDEA.
- * User: sanusoft
- * Date: 17/05/2014
- * Time: 23:51
- * To change this template use File | Settings | File Templates.
+ * Context object which will hold the message processing strategy.
  */
-public class Context {
-    private Strategy strategy;
+final public class Context {
+    final private Strategy strategy;
 
-    public Context(Strategy strategy) {
+    public Context(final Strategy strategy) {
         this.strategy = strategy;
     }
 
-    public void executeStrategy(Message message) {
+    public void executeStrategy(final Message message) {
         this.strategy.execute(message);
     }
 }

@@ -2,6 +2,8 @@ package co.uk.sanjay.ubstest.strategy;
 
 import co.uk.sanjay.ubstest.message.Message;
 
+import java.io.IOException;
+
 /**
  * Created with IntelliJ IDEA.
  * User: sanusoft
@@ -14,5 +16,5 @@ public interface Strategy {
     /**
      * A method will be called when strategy needs to be execute.
      */
-    public void execute(Message message);
+    public void execute(Message message) throws IOException;
 }

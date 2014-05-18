@@ -1,13 +1,15 @@
 package co.uk.sanjay.ubstest;
 
 /**
- * Created with IntelliJ IDEA.
- * User: sanusoft
- * Date: 15/05/2014
- * Time: 22:12
- * To change this template use File | Settings | File Templates.
+ * An interface which accept the request from sender with subject and content details and execute appropriate action..
  */
 public interface CommandProcessor {
 
-    public void processEmailCommand(String from, String subject, String content) throws IllegalArgumentException;
+    /**
+     * @param from
+     * @param subject
+     * @param content
+     * @throws IllegalArgumentException
+     */
+    public void processEmailCommand(String from, String subject, String content);
 }

@@ -1,11 +1,8 @@
 package co.uk.sanjay.ubstest.message;
 
 /**
- * Created with IntelliJ IDEA.
- * User: sanusoft
- * Date: 15/05/2014
- * Time: 22:19
- * To change this template use File | Settings | File Templates.
+ * Message object which created by wrapping the information received from service interface and
+ * will be used as message to be process.
  */
 public class Message {
 
@@ -15,7 +12,7 @@ public class Message {
     private String filename;
 
 
-    public Message(String name, String subject, String content) {
+    public Message(final String name, final String subject, final String content) {
         this.name = name;
         this.content = content;
         if (subject != null) {

@@ -2,16 +2,14 @@ package co.uk.sanjay.ubstest.strategy;
 
 import co.uk.sanjay.ubstest.message.Message;
 
+import java.io.IOException;
+
 /**
- * Created with IntelliJ IDEA.
- * User: sanusoft
- * Date: 18/05/2014
- * Time: 00:03
- * To change this template use File | Settings | File Templates.
+ * A Strategy to handle all unknown commands.
  */
 /*public*/ class UnknownStrategy implements Strategy {
     @Override
-    public void execute(Message message) {
-        System.out.println("Unknown command! Message cannot be process " + message.toString());
+    public void execute(Message message) throws IOException{
+        System.err.println("Could not process this message due to unknown command : " + message.toString());
     }
 }
