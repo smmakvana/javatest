@@ -1,0 +1,8 @@
+co/uk/sanjay/ubstest/strategy/Strategy.class
+co/uk/sanjay/ubstest/strategy/Context.class
+co/uk/sanjay/ubstest/strategy/WriteStrategy.class
+co/uk/sanjay/ubstest/CommandProcessor.class
+co/uk/sanjay/ubstest/message/Message.class
+co/uk/sanjay/ubstest/strategy/ContextFactory$1.class
+co/uk/sanjay/ubstest/strategy/Strategies.class
+co/uk/sanjay/ubstest/strategy/ContextFactory.class
