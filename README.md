@@ -61,7 +61,7 @@ I did not used the logger in this project which I will use if project will grow!
 [Test Coverage Quick Info] (https://github.com/smmakvana/javatest/blob/master/testcoverage.png)
 >
 #### 
-[Test Coverage Report detail](https://github.com/smmakvana/javatest/blob/master/testcoverage.png)
+[Test Coverage Report detail](https://github.com/smmakvana/javatest/tree/master/cobertura)
 >
 #### 
 [GitHub](https://github.com/smmakvana/javatest)
