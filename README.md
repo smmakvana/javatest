@@ -1,10 +1,10 @@
 javatest
 ========
 
-# Email Message Processing Java Test
+### Email Message Processing Java Test
 
 ----
-## Test description?
+## Requirement
 
 > Given an interface with a single method: void processEmailCommand(String from, String subject, String content)
 
@@ -44,17 +44,21 @@ I did not used the logger in this project which I will use if project will grow!
 
 ----
 ## Use full information:
-### UML diagram
-### test coverage report
-
-
-[links]
-https://github.com/smmakvana/javatest
+>
+#### 
+[UML diagram](https://github.com/smmakvana/javatest/blob/master/UMLdiagram.jpg)
+>
+#### 
+[Test Coverage Quick Info] (https://github.com/smmakvana/javatest/blob/master/testcoverage.png)
+>
+#### 
+[Test Coverage Report detail](https://github.com/smmakvana/javatest/blob/master/testcoverage.png)
+>
+#### 
+[GitHub](https://github.com/smmakvana/javatest)
 
 >
 
 ----
-
-----
 ## thanks
-Sanjay Makivana
+##Sanjay Makivana
