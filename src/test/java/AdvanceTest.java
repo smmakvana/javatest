@@ -7,6 +7,7 @@ import org.junit.rules.ExpectedException;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * Created with IntelliJ IDEA.
@@ -32,6 +33,26 @@ public class AdvanceTest {
     }
 
     @Test
+    public void tenThreadTenThousandSenderTenRequestEach(){
+
+        int threads=10;
+        int senders=10000;
+        int tasks=10;
+        ExecutorService executor = Executors.newFixedThreadPool(threads);
+        for (int i = 0; i < senders; i++) {
+            Runnable worker = new TenRequestsTask(FOO + i);
+            executor.execute(worker);
+        }
+        executor.shutdown();
+        while (!executor.isTerminated()) {
+        }
+        Assert.assertEquals(senders, commandProcessor.getMessagesMap().size());
+        for(AtomicInteger counter: commandProcessor.getMessagesMap().values()){
+            Assert.assertEquals(tasks,counter.get());
+        }
+    }
+
+    @Test
     public void oneThreadOneJob() {
         ExecutorService executorService = Executors.newSingleThreadExecutor();
         executorService.execute(new WorkerThread(FOO));
@@ -50,6 +71,34 @@ public class AdvanceTest {
         while (!executorService.isTerminated()) {
         }
     }
+    class TenRequestsTask implements Runnable {
+        private String command;
+
+        public TenRequestsTask(String s) {
+            this.command = s;
+        }
+
+        @Override
+        public void run() {
+            //System.out.println(Thread.currentThread().getName() + " Start. Command = " + command);
+            ExecutorService executorService = Executors.newSingleThreadExecutor();
+            executorService.execute(new WriteTask(command));
+            for (Integer i = 2; i < 10; i++) {
+                executorService.execute(new AppendTask(command));
+            }
+            executorService.execute(new DeleteTask(command));
+            executorService.shutdown();
+            while (!executorService.isTerminated()) {
+            }
+            Assert.assertEquals(10, commandProcessor.getMessagesMap().get(command).get());
+            //System.out.println(Thread.currentThread().getName() + " End.");
+        }
+
+        @Override
+        public String toString() {
+            return this.command;
+        }
+    }
 
 
     @Test
@@ -62,7 +111,7 @@ public class AdvanceTest {
         executor.shutdown();
         while (!executor.isTerminated()) {
         }
-        System.out.println("Finished all threads");
+        //System.out.println("Finished all threads");
     }
 
     @Test
@@ -89,7 +138,7 @@ public class AdvanceTest {
 
         @Override
         public void run() {
-            System.out.println(Thread.currentThread().getName() + " Start. Command = " + command);
+            //System.out.println(Thread.currentThread().getName() + " Start. Command = " + command);
             ExecutorService executorService = Executors.newFixedThreadPool(100);
             executorService.execute(new WriteTask(command));
             for (Integer i = 2; i < TEN_THOUSAND; i++) {
@@ -100,7 +149,7 @@ public class AdvanceTest {
             while (!executorService.isTerminated()) {
             }
             Assert.assertEquals(TEN_THOUSAND.intValue(), commandProcessor.getMessagesMap().get(command).get());
-            System.out.println(Thread.currentThread().getName() + " End.");
+            //System.out.println(Thread.currentThread().getName() + " End.");
         }
 
         @Override
